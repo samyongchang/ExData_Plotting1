@@ -22,7 +22,7 @@ data1$Global_reactive_power <-as.numeric(data1$Global_reactive_power)
 
 ##Setup plot creation
 png(file="plot4.png", width = 480, height = 480)
-par(mfcol=c(2,2), mar=c(2,2,2,2))
+par(mfcol=c(2,2), mar=c(4,4,4,4))
 
 
 ##plot1
