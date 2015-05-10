@@ -11,4 +11,3 @@ data1$Global_active_power <- as.numeric(data1$Global_active_power)
 png(file="plot1.png", width = 480, height = 480)
 hist(data1$Global_active_power, main = paste("Global Active Power"),xlab="Global Active Power (kilowatts)", col="red")
 dev.off()
-
