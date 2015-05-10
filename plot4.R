@@ -41,7 +41,7 @@ legend("topright", col=c("black","red","blue"), lty=1, lwd=1, bty="n",
 ##plot3
 plot(data1$datetime, data1$Voltage, xlab="datatime", 
      ylab="Voltage",type="l")
-     
+
 ##plot4
 plot(data1$datetime, data1$Global_reactive_power , 
      ylab="Global_reactive_power", xlab="datatime",type="l")

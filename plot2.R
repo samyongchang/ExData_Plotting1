@@ -9,7 +9,7 @@ data1 <-subset(data,data$Date>="2007-02-01" & data$Date <="2007-02-02")
 ##Sets the Global Active Power variable as numeric
 data1$Global_active_power <- as.numeric(data1$Global_active_power)
 
-##Merges data and time to create a variable called datetime
+##Merges data and time to create a variable
 data1$datetime <- as.POSIXct(paste(data1$Date, data1$Time))
 
 ##Create the plot
